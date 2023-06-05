@@ -26,7 +26,7 @@ To set up the NodeMCU security system, you will need the following:
 
 2. Open the Arduino IDE and install the required libraries for NodeMCU and Telegram integration. You can use the Arduino Library Manager to install the libraries easily.
 
-3. Create a new Arduino sketch and copy the code provided in the `security_system.ino` file from this repository.
+3. Create a new Arduino sketch and copy the code provided in the `PIR_security.ino` file from this repository.
 
 4. Update the Wi-Fi credentials in the code with your network's SSID (name) and password.
 
