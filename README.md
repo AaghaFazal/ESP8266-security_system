@@ -32,7 +32,7 @@ To set up the NodeMCU security system, you will need the following:
 
 2. Open the Arduino IDE and install the required libraries for NodeMCU and Telegram integration. You can use the Arduino Library Manager to install the libraries easily.
 
-3. Create a new Arduino sketch and copy the code provided in the `PIR_security.ino` file from this repository.
+3. Create a new Arduino sketch and copy the code provided in the <A href="https://github.com/LgcyAlex/ESP8266-security_system/blob/a280195cba1e08d422d9f9473d2523977dc9d405/PIR_security/PIR_security.ino">`PIR_security.ino`</a> file from this repository.
 
 4. Update the Wi-Fi credentials in the code with your network's <A href="https://github.com/LgcyAlex/ESP8266-security_system/blob/e06328504721bd479e5acb2b96674c7bd2fc91b3/PIR_security/PIR_security.ino#L9">SSID (name)</a> and <A href="https://github.com/LgcyAlex/ESP8266-security_system/blob/e06328504721bd479e5acb2b96674c7bd2fc91b3/PIR_security/PIR_security.ino#LL10C1-L10C1"> WiFi Password</a>.
 
@@ -44,7 +44,7 @@ To set up the NodeMCU security system, you will need the following:
 
 7. Obtain your Telegram CHAT ID:
    - Open the Telegram app and search for the <A href="https://telegram.me/MissRose_bot">"Rose"</a> bot.
-   - Press START and send /id message you will get your CHAT_ID.
+   - Press START and send ```/id``` you will get your CHAT_ID.
 
 8. Replace the <A href="https://github.com/LgcyAlex/ESP8266-security_system/blob/f9e9537eecd0c34af6353cfbab3d47520ab83d10/PIR_security/PIR_security.ino#LL14C2-L14C2">CHAT_ID</a> placeholder in the code with your CHAT ID.
 
