@@ -37,23 +37,26 @@ To set up the NodeMCU security system, you will need the following:
 4. Update the Wi-Fi credentials in the code with your network's SSID (name) and password.
 
 5. Obtain your Telegram Bot Token:
-   - Open the Telegram app and search for the "BotFather" bot.
+   - Open the Telegram app and search for the <A href="https://telegram.me/BotFather">"BotFather"</a> bot.
    - Create a new bot and obtain the Bot Token.
 
 6. Replace the <A href="https://github.com/LgcyAlex/ESP8266-security_system/blob/f9e9537eecd0c34af6353cfbab3d47520ab83d10/PIR_security/PIR_security.ino#L13">TELEGRAM_BOT_TOKEN</a> placeholder in the code with your Bot Token.
 
-7. Replace the <A href="https://github.com/LgcyAlex/ESP8266-security_system/blob/f9e9537eecd0c34af6353cfbab3d47520ab83d10/PIR_security/PIR_security.ino#LL14C2-L14C2">CHAT_ID</a> placeholder in the code with your CHAT ID.
+7. Obtain your Telegram CHAT ID:
+   - Open the Telegram app and search for the <A href="https://telegram.me/MissRose_bot">"Rose"</a> bot.
+   - Press START and send /id message you will get your CHAT_ID.
 
-8. Upload the code to the NodeMCU board by clicking on the "Upload" button in the Arduino IDE.
+8. Replace the <A href="https://github.com/LgcyAlex/ESP8266-security_system/blob/f9e9537eecd0c34af6353cfbab3d47520ab83d10/PIR_security/PIR_security.ino#LL14C2-L14C2">CHAT_ID</a> placeholder in the code with your CHAT ID.
 
-8. Once the upload is complete, disconnect the NodeMCU from your computer and connect it to a power source.
+9. Upload the code to the NodeMCU board by clicking on the "Upload" button in the Arduino IDE.
 
-9. Connect all the components as shown in the <A href="https://github.com/LgcyAlex/ESP8266-security_system/blob/f9e9537eecd0c34af6353cfbab3d47520ab83d10/circuit%20diagram.png">DIAGRAM</a>.
+10. Once the upload is complete, disconnect the NodeMCU from your computer and connect it to a power source.
 
-10. Mount the PIR motion sensor in the desired location, adjusting the sensitivity and range according to your requirements.
+11. Connect all the components as shown in the <A href="https://github.com/LgcyAlex/ESP8266-security_system/blob/f9e9537eecd0c34af6353cfbab3d47520ab83d10/circuit%20diagram.png">DIAGRAM</a>.
 
+12. Mount the PIR motion sensor in the desired location, adjusting the sensitivity and range according to your requirements.
 
-14. Boom! Your security system is now ready to use. When the motion sensor detects movement, it will send a notification to your Telegram account.
+13. Boom! Your security system is now ready to use. When the motion sensor detects movement, it will send a notification to your Telegram account.
 
 ## Troubleshooting
 
