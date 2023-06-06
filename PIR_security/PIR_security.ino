@@ -10,8 +10,8 @@ const char* ssid = "Airtel_8292598546";
 const char* password = "air86952";
 
 
-#define BOTtoken "6053326650:AAFzi6EF6kAnG8q_258OCVt5dhaN8rwtypE"
-#define CHAT_ID "5358732454"
+#define BOTtoken "TELEGRAM_BOT_TOKEN"
+#define CHAT_ID "987654321"
 
 #define Sensor D0
 #define LEDR D3
