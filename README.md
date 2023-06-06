@@ -34,7 +34,7 @@ To set up the NodeMCU security system, you will need the following:
 
 3. Create a new Arduino sketch and copy the code provided in the `PIR_security.ino` file from this repository.
 
-4. Update the Wi-Fi credentials in the code with your network's SSID (name) and password.
+4. Update the Wi-Fi credentials in the code with your network's <A href="https://github.com/LgcyAlex/ESP8266-security_system/blob/e06328504721bd479e5acb2b96674c7bd2fc91b3/PIR_security/PIR_security.ino#L9">SSID (name)</a> and <A href="https://github.com/LgcyAlex/ESP8266-security_system/blob/e06328504721bd479e5acb2b96674c7bd2fc91b3/PIR_security/PIR_security.ino#LL10C1-L10C1"> WiFi Password</a>.
 
 5. Obtain your Telegram Bot Token:
    - Open the Telegram app and search for the <A href="https://telegram.me/BotFather">"BotFather"</a> bot.
