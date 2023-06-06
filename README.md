@@ -2,12 +2,16 @@
 
 This project demonstrates the implementation of a security system using NodeMCU ESP8266 board and the Telegram app. The system utilizes a PIR (Passive Infrared) motion sensor to detect movement and sends real-time notifications to the user's Telegram account, allowing them to monitor and secure their premises remotely.
 
+
+## How does the PIR security system work?
+
+When powering this system, First, the Nodemcu board connects to the Internet connection via the local IP address. Then, the system goes into activation mode. After, displayed as “System startup” on the LCD and Telegram app. Next, when a movement occurs, it is captured by the PIR sensor and sent to the Arduino board. Then, the buzzer will activate for a short time. Also, displayed as “Motion detected” in the Telegram app and on the LCD. Then, the system returns to a normal situation. That is, displayed as “No motion” on the LCD.
+
 ## Features
 
 - Motion detection using a PIR motion sensor
 - Integration with the Telegram app for receiving notifications
 - Real-time alerts sent to the user's Telegram account
-- Remote monitoring and control of the security system
 - Easy setup and customization
 
 ## Prerequisites
@@ -16,6 +20,8 @@ To set up the NodeMCU security system, you will need the following:
 
 - NodeMCU ESP8266 board
 - PIR motion sensor
+- Buzzer
+- LCD display 
 - USB cable for connecting NodeMCU to your computer
 - Arduino IDE (Integrated Development Environment)
 - Telegram account and the Telegram app installed on your smartphone
@@ -34,31 +40,20 @@ To set up the NodeMCU security system, you will need the following:
    - Open the Telegram app and search for the "BotFather" bot.
    - Create a new bot and obtain the Bot Token.
 
-6. Replace the `TELEGRAM_BOT_TOKEN` placeholder in the code with your Bot Token.
+6. Replace the <A href="https://github.com/LgcyAlex/ESP8266-security_system/blob/f9e9537eecd0c34af6353cfbab3d47520ab83d10/PIR_security/PIR_security.ino#L13">TELEGRAM_BOT_TOKEN</a> placeholder in the code with your Bot Token.
 
-7. Upload the code to the NodeMCU board by clicking on the "Upload" button in the Arduino IDE.
+7. Replace the <A href="https://github.com/LgcyAlex/ESP8266-security_system/blob/f9e9537eecd0c34af6353cfbab3d47520ab83d10/PIR_security/PIR_security.ino#LL14C2-L14C2">CHAT_ID</a> placeholder in the code with your CHAT ID.
+
+8. Upload the code to the NodeMCU board by clicking on the "Upload" button in the Arduino IDE.
 
 8. Once the upload is complete, disconnect the NodeMCU from your computer and connect it to a power source.
 
-9. Mount the PIR motion sensor in the desired location, adjusting the sensitivity and range according to your requirements.
+9. Connect all the components as shown in the <A href="https://github.com/LgcyAlex/ESP8266-security_system/blob/f9e9537eecd0c34af6353cfbab3d47520ab83d10/circuit%20diagram.png">DIAGRAM</a>.
 
-10. Install and open the Telegram app on your smartphone.
+10. Mount the PIR motion sensor in the desired location, adjusting the sensitivity and range according to your requirements.
 
-11. Search for the "BotFather" bot and start a chat.
 
-12. Send the command `/mybots` to see your bot.
-
-13. Start a chat with your bot by clicking on the "Start" button or sending a message.
-
-14. Your security system is now ready to use. When the motion sensor detects movement, it will send a notification to your Telegram account.
-
-## Customization
-
-You can customize the security system according to your specific needs:
-
-- Modify the sensitivity of the PIR motion sensor in the code by adjusting the delay and threshold values.
-- Add additional features such as a sound alarm, LED indicators, or a camera module for capturing images or videos upon detection.
-- Enhance the notification system by adding more functionalities or integrating with other messaging platforms.
+14. Boom! Your security system is now ready to use. When the motion sensor detects movement, it will send a notification to your Telegram account.
 
 ## Troubleshooting
 
