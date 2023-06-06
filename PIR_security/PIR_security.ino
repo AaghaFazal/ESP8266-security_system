@@ -6,12 +6,12 @@
 
 
 LiquidCrystal_I2C lcd (0x27, 16, 2);
-const char* ssid = "Airtel_8292598546";
-const char* password = "air86952";
+const char* ssid = "Your_SSID";
+const char* password = "Your_Password";
 
 
-#define BOTtoken "TELEGRAM_BOT_TOKEN"
-#define CHAT_ID "987654321"
+#define BOTtoken "Your_TELEGRAM_BOT_TOKEN"
+#define CHAT_ID "Your_CHAT_ID"
 
 #define Sensor D0
 #define LEDR D3
