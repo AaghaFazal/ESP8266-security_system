@@ -79,9 +79,7 @@ This project is licensed under the [MIT License](LICENSE), allowing you to modif
 ## Further Reading
 
 - [NodeMCU Documentation](https://nodemcu.readthedocs.io/)
-- [Telegram Bot
-
- API](https://core.telegram.org/bots/api)
+- [Telegram Bot API](https://core.telegram.org/bots/api)
 - [PIR Motion Sensor Tutorial](https://www.instructables.com/PIR-Motion-Sensor-Tutorial/)
 - [Arduino IDE](https://www.arduino.cc/en/software)
 
