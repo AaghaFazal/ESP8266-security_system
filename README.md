@@ -39,7 +39,7 @@ To set up the NodeMCU security system, you will need the following:
 
 5.LCD display x 1 --  https://amzn.to/3Cooj37
 
-8.Buzzer x 1 --   https://amzn.to/3IXQM3t
+6.Buzzer x 1 --   https://amzn.to/3IXQM3t
 
 
 
