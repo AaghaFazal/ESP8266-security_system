@@ -28,7 +28,7 @@ To set up the NodeMCU security system, you will need the following:
 
 
 ## Part's List (Amazon)
-==========================================
+
 1.Nodemcu board x 1 -- https://amzn.to/3P2fzr9
 
 2.PIR sensor x 1 --  https://amzn.to/3oVKgU8
