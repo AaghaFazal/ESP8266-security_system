@@ -26,6 +26,24 @@ To set up the NodeMCU security system, you will need the following:
 - Arduino IDE (Integrated Development Environment)
 - Telegram account and the Telegram app installed on your smartphone
 
+
+## Part's List (Amazon)
+==========================================
+1.Nodemcu board x 1 -- https://amzn.to/3P2fzr9
+
+2.PIR sensor x 1 --  https://amzn.to/3oVKgU8
+
+3.Jumper wires. -- https://amzn.to/3P1ja8N
+
+4.Breadboard x 1 ---  https://amzn.to/3J2EDKZ
+
+5.LCD display x 1 --  https://amzn.to/3Cooj37
+
+8.Buzzer x 1 --   https://amzn.to/3IXQM3t
+
+
+
+
 ## Getting Started
 
 1. Connect the NodeMCU board to your computer using the USB cable.
